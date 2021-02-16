@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="first consulting.listviewcount.ListViewCount" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>List View Count</name>
+    <description>Counting Mendix List View items</description>
+    <icon/>
+    <properties>
+        <property key="entity" type="string">
+            <caption>List view with entity</caption>
+            <category>General</category>
+            <description>Select the same entity as the list view that this widget should interact with. If multiple list views with this entity are found, the closest is used</description>
+        </property>
+    </properties>
+</widget>
